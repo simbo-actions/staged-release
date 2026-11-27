@@ -1,16 +1,17 @@
 # staged-release
 
+## 1.0.4
+
+### Patch Changes
+
+- 4e0746b: Update `@simbo/stringify-error` to ^2.0.1.
+
 ## 1.0.3
 
 ### Patch Changes
 
-- f7dcbdc: Use the same description in `action.yml`, `package.json`, and the
+- f7dcbdc: Quote the description in `action.yml` to match `package.json` and the
   README.
-
-  - `floating-version-tags` and `staged-release` quote the description in
-    `action.yml` to keep the colon of the other places.
-  - `github-app-bot-user` uses the wording of `action.yml` and the README in
-    `package.json`, which is also the description of its repository.
 
 ## 1.0.2
 
